@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<title>World Clock</title>
+    	<link rel="stylesheet" href="style.css">
+	</head><!-- header -->
+	
+	<body>
+		<header class="app-header">
+			<h1 class="app-label">App Title</h1>
+      	</header><!-- header -->
+
+		<section class="content" id="worldclock">
+			<div class="cities-list">
+			</div><!-- cities-list -->
+		</section><!-- content -->
+        
+		<section class="content" id="timer">	
+			<ul class="time-label">
+				<li class="timer-minutes">
+					<input type="number" name="minutes" min="0" max="59" class="timer-input">
+				</li>
+                <li class="timer-hours">
+					<input type="number" name="hours" min="0" max="23" class="timer-input">
+				</li>
+                <li class="timer-remaining">
+                    <span class="timer-label"></span>
+                </li>
+			</ul><!-- time-label -->			
+			<ul class="timer-buttons">
+				<li class="timer-start"><button class="start-icon" id="timerStart">Start</button></li>
+                <li class="timer-cancel"><button class="cancel-icon" id="timerCancel">Cancel</button></li>
+				<li class="timer-pause"><button class="pause-icon" id="timerPause">Pause</button></li>
+                <li class="timer-resume"><button class="resume-icon" id="timerResume">Resume</button></li>
+			</ul><!-- timer-buttons -->
+		</section><!-- content -->
+        
+		<section class="content" id="stopwatch">
+			<div class="stopwtch-time">
+				<div class="elapsed-time">00:00.00</div>
+				<div class="elapsed-lap">00:00.00</div>
+			</div><!-- stopwtch-time -->
+			<ul class="stopwtch-buttons">
+				<li class="stopwtch-start"><button class="start-icon" id="swStart">Start</button></li>        
+				<li class="stopwtch-stop"><button class="stop-icon" id="swStop">Stop</button></li>
+				<li class="stopwtch-lap"><button class="lap-icon" id="swLap">Lap</button></li>
+				<li class="stopwtch-reset"><button class="reset-icon" id="swReset">Reset</button></li>        
+			</ul><!-- stopwtch-buttons -->
+            <div class ="laps-list">
+			</div><!-- laps-list -->
+		</section><!-- content -->        
+
+		<footer class="app-footer">
+			<nav class="app-nav">
+				<ul class="nav-menu">
+					<li class="nav-icons"><a href="#worldclock" class="nav-achrs">&#9992;
+							<br/>World Clock</a></li>
+					<li class="nav-icons"><a href="#timer" class="nav-achrs">&#9716;
+							<br/>Timer</a></li>
+					<li class="nav-icons"><a href="#stopwatch" class="nav-achrs">&#9719;
+							<br/>Stopwatch</a></li>
+				</ul><!-- nav-menu -->
+			</nav><!-- app-nav -->
+		</footer><!-- app-footer -->
+		
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="clock.js"></script>
+	</body>
+</html>
