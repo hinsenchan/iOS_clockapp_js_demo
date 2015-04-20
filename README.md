@@ -75,3 +75,11 @@ The Stopwatch can be running, stopped, resumed, lapped, and reset. Lap will reco
 ### Reset: stopwatch resets all elapsed time
 
 ![img3_stopwatch_mobile](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img3_stopwatch_mobile.png)
+
+# Reference
+
+* w3Schools: http://www.w3schools.com/
+
+# Credits
+
+This software was developed by Hinsen Chan at Santa Clara University in Summer 2014.
