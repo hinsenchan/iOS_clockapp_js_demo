@@ -21,7 +21,6 @@ Check out the Ember.js version of my clock app for a more advanced version which
 
 The World Clock will load a list of cities along with its GMT time offsets. The app will update each fixture item in real time and calculate the local offset in the timezone relative to the system time. In this release, the user cannot add or remove cities to and from the list. World Clock will continue to run even if the user switches to the Timer or Stopwatch function.
 
-### Clock
 ![img1_worldclock_mobile](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img1_worldclock_mobile.png)
 
 ## Timer
@@ -30,52 +29,48 @@ The Timer can be running, cancelled, paused, and resumed. Hours and minutes can 
 
 ![img2_timer_mobile](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img2_timer_mobile.png)
 
-### Setup
+### Setup: Select time to countdown
 
 ![img7_timer_setup](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img7_timer_setup.png)
 
-### Running
+### Running: Timer is counting down
 
 ![img8_timer_running](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img8_timer_running.png)
 
-### Paused
+### Paused: Timer is paused
 
 ![img9_timer_paused](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img9_timer_paused.png)
 
-### Resumed
+### Resumed: Timer is resumed
 
 ![img10_timer_resumed](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img10_timer_resumed.png)
 
-### Cancelled
+### Cancelled: Countdown is cancelled
 
 ![img11_timer_cancelled](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img11_timer_cancelled.png)
 
 ## Stopwatch
 
-![img3_stopwatch_mobile](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img3_stopwatch_mobile.png)
-
 The Stopwatch can be running, stopped, resumed, lapped, and reset. Lap will record the elapsed time since the last lap was recorded. Stopwatch will continue to operate even if the user swithces to the World Clock or Timer function.
 
-### Initial
-
 ![img3_stopwatch_mobile](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img3_stopwatch_mobile.png)
 
-### Running
+### Running: Stopwatch is running
 
 ![img12_stopwatch_running](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img12_stopwatch_running.png)
 
-### Stopped
+### Stopped: Stopwatch is stopped
 
 ![img13_stopwatch_stopped](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img13_stopwatch_stopped.png)
 
-### Resumed
+### Resumed: Stopwatch is resumed
 
 ![img14_stopwatch_resumed](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img14_stopwatch_resumed.png)
 
-### Lapped
+### Lapped: Stopwatch records lap times
 
 ![img15_stopwatch_lapped](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img15_stopwatch_lapped.png)
 
-### Reset
+### Reset: Stopwatch resets all elapsed time
 
 ![img3_stopwatch_mobile](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/img3_stopwatch_mobile.png)
