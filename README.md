@@ -8,11 +8,11 @@ Check out the Ember.js version of my clock app for a more advanced version which
 
 ## Mobile Version
 
-![mobile_collage](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/mobile_collage.png)
+![clockapp_js_collage](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/clockapp_js_collage.png)
 
 ## Desktop Version
 
-![desktop_collage](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/desktop_collage.png)
+![clockapp_js_desktop_collage](https://github.com/hinsenchan/iOS_clockapp_js_demo/blob/master/readme/clockapp_js_desktop_collage.png)
 
 # Features
 
